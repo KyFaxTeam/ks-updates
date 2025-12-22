@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>KySmile - Updates</title>
+        <description>Journal des modifications de l'application.</description>
+        <language>fr</language>
+
+        <item>
+            <!-- Titre de la mise à jour -->
+            <title>Version 3.0.0</title>
+            
+            <!-- Description des nouveautés (affichée à l'utilisateur) -->
+            <description>
+                <![CDATA[
+                <ul>
+                    <li>Grosse mise à jour majeure !</li>
+                    <li>Nouvelle interface utilisateur.</li>
+                    <li>Correction de bugs de la version 1.0.0.</li>
+                </ul>
+                ]]>
+            </description>
+            
+            <!-- Date de publication (Format RFC 822) -->
+            <pubDate>Mon, 22 Dec 2025 12:00:00 +0100</pubDate>
+
+            <!-- L'élément CRITIQUE : l'endroit où se trouve le fichier d'installation -->
+            <enclosure 
+                url="https://votre-site.com/telechargements/mon_app_setup_3.0.0.exe" 
+                sparkle:version="2" 
+                sparkle:shortVersionString="3.0.0" 
+                sparkle:os="windows" 
+                length="45824000" 
+                type="application/octet-stream" />
+                
+            <!-- 
+              Détails des attributs :
+              - url : Lien direct vers votre installateur (.exe ou .msi)
+              - sparkle:version : Le numéro APRES le "+" dans votre pubspec.yaml (le build number)
+              - sparkle:shortVersionString : Le numéro AVANT le "+" dans votre pubspec.yaml (la version affichée)
+              - sparkle:os : Toujours "windows" pour votre cas
+              - length : Taille du fichier en octets (optionnel mais recommandé)
+            -->
+        </item>
+    </channel>
+</rss>
