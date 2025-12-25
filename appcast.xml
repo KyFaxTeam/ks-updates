@@ -7,7 +7,7 @@
 
         <item>
             <!-- Titre de la mise à jour -->
-            <title>Version 3.0.0</title>
+            <title>Version 3.0.1</title>
             
             <!-- Description des nouveautés (affichée à l'utilisateur) -->
             <description>
@@ -21,13 +21,13 @@
             </description>
             
             <!-- Date de publication (Format RFC 822) -->
-            <pubDate>Mon, 22 Dec 2025 12:00:00 +0100</pubDate>
+            <pubDate>Thu, 25 Dec 2025 10:00:00 +0100</pubDate>
 
             <!-- L'élément CRITIQUE : l'endroit où se trouve le fichier d'installation -->
             <enclosure 
-                url="https://votre-site.com/telechargements/mon_app_setup_3.0.0.exe" 
+                url="https://github.com/KyFaxTeam/ks-updates/releases/download/up_testv3.0.1/KySmile_Setup_3.0.1.exe" 
                 sparkle:version="2" 
-                sparkle:shortVersionString="3.0.0" 
+                sparkle:shortVersionString="3.0.1" 
                 sparkle:os="windows" 
                 length="45824000" 
                 type="application/octet-stream" />
