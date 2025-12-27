@@ -12,11 +12,16 @@
             <!-- Description des nouveautés (affichée à l'utilisateur) -->
             <description>
                 <![CDATA[
+                <div style="color: black; background-color: white; font-family: Arial, sans-serif;">
+                <h2>🎉 Mise à jour majeure 3.0.1 !</h2>
+                <p>Nous sommes ravis de vous présenter cette nouvelle version de KySmile avec de nombreuses améliorations :</p>
                 <ul>
-                    <li>Grosse mise à jour majeure !</li>
-                    <li>Nouvelle interface utilisateur.</li>
-                    <li>Correction de bugs de la version 1.0.0.</li>
+                    <li><strong>Interface utilisateur renouvelée</strong> : Une expérience plus intuitive et moderne.</li>
+                    <li><strong>Corrections de bugs</strong> : Résolution des problèmes identifiés dans la version 1.0.0.</li>
+                    <li><strong>Performances améliorées</strong> : L'application est maintenant plus rapide et stable.</li>
                 </ul>
+                <p>Merci d'utiliser KySmile ! 😊</p>
+                </div>
                 ]]>
             </description>
             
