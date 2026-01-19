@@ -7,34 +7,54 @@
 
         <item>
             <!-- Titre de la mise à jour -->
-            <title>Version 3.0.0</title>
+            <title>Version 3.1.0</title>
             
             <!-- Description des nouveautés (affichée à l'utilisateur) -->
             <description>
                 <![CDATA[
                 <div style="color: black; background-color: white; font-family: Arial, sans-serif; padding: 24px; border-radius: 8px;">
-                <h2>🎉 Mise à jour majeure 3.0.1 !</h2>
-                <p>Nous sommes ravis de vous présenter cette nouvelle version de KySmile avec de nombreuses améliorations :</p>
+                <h2>🎉 Mise à jour 3.1.0 !</h2>
+                <p>Cette version apporte de nombreuses corrections et améliorations :</p>
+                
+                <h3>🐛 Corrections de bugs</h3>
                 <ul>
-                    <li><strong>Interface utilisateur renouvelée</strong> : Une expérience plus intuitive et moderne.</li>
-                    <li><strong>Corrections de bugs</strong> : Résolution des problèmes identifiés dans la version 1.0.0.</li>
-                    <li><strong>Performances améliorées</strong> : L'application est maintenant plus rapide et stable.</li>
+                    <li><strong>Traitement</strong> : Correction de l'affichage du bon traitement</li>
+                    <li><strong>Page statistique</strong> : Réparation complète</li>
+                    <li><strong>Filtre période</strong> : Correction du filtre tableau de bord</li>
+                    <li><strong>Devise</strong> : Affichage en FCFA au lieu de XOF</li>
                 </ul>
+                
+                <h3>🧹 Simplifications</h3>
+                <ul>
+                    <li>Retrait du champ description optionnel (traitement et encaissement)</li>
+                    <li>Déplacement du RDV vers l'onglet patient</li>
+                    <li>Retrait des champs "Ville" et genre "Autre" (création patient)</li>
+                    <li>Retrait des boutons debug et logout (page d'accueil)</li>
+                </ul>
+                
+                <h3>✨ Améliorations</h3>
+                <ul>
+                    <li>Masquage automatique des champs vides (détails consultation)</li>
+                    <li>Nouveau champ âge synchronisé avec la date de naissance</li>
+                    <li>"Numéro patient" renommé en "Numéro client"</li>
+                    <li>Dernières consultations cliquables</li>
+                </ul>
+                
                 <p>Merci d'utiliser KySmile ! 😊</p>
                 </div>
                 ]]>
             </description>
             
             <!-- Date de publication (Format RFC 822) -->
-            <pubDate>Thu, 25 Dec 2025 10:00:00 +0100</pubDate>
+            <pubDate>Mon, 19 Jan 2026 10:00:00 +0100</pubDate>
 
             <!-- L'élément CRITIQUE : l'endroit où se trouve le fichier d'installation -->
             <enclosure 
-                url="https://github.com/KyFaxTeam/ks-updates/releases/download/up_testv3.0.1/KySmile_Setup_3.0.1.exe" 
-                sparkle:version="3.0.0+1"
-                sparkle:shortVersionString="3.0.0" 
+                url="https://github.com/KyFaxTeam/ks-updates/releases/download/v3.1.0/KySmile_Setup_3.1.0.exe" 
+                sparkle:version="3.1.0+2"
+                sparkle:shortVersionString="3.1.0" 
                 sparkle:os="windows" 
-                length="45824000" 
+                length="1571328" 
                 type="application/octet-stream" />
                 
             <!-- 
