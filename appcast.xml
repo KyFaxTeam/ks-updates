@@ -7,6 +7,36 @@
 
         <item>
             <!-- Titre de la mise à jour -->
+            <title>Version 3.2.1</title>
+            
+            <!-- Description des nouveautés (affichée à l'utilisateur) -->
+            <description>
+                <![CDATA[
+                <div style="color: black; background-color: white; font-family: Arial, sans-serif; padding: 24px; border-radius: 8px;">
+                <h2>🔧 Mise à jour 3.2.1</h2>
+                <ul>
+                    <li><strong>Correction</strong> : Réglage de l'indexation des traitements</li>
+                </ul>
+                <p>Merci d'utiliser KySmile ! 😊</p>
+                </div>
+                ]]>
+            </description>
+            
+            <!-- Date de publication (Format RFC 822) -->
+            <pubDate>Tue, 17 Feb 2026 10:00:00 +0100</pubDate>
+
+            <!-- L'élément CRITIQUE : l'endroit où se trouve le fichier d'installation -->
+            <enclosure 
+                url="https://github.com/KyFaxTeam/ks-updates/releases/download/v3.2.1/KySmile_Setup_3.2.1.exe" 
+                sparkle:version="3.2.1+4"
+                sparkle:shortVersionString="3.2.1" 
+                sparkle:os="windows" 
+                length="1571328" 
+                type="application/octet-stream" />
+        </item>
+
+        <item>
+            <!-- Titre de la mise à jour -->
             <title>Version 3.2.0</title>
             
             <!-- Description des nouveautés (affichée à l'utilisateur) -->
